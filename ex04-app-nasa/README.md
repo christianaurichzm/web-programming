@@ -7,7 +7,14 @@ Ela também acessa e consume dados de um webservice da Nasa.
 
 ## Instruções
 
-No diretório servidor editar o arquivo .env atribuindo uma chave a NASA_API_KEY, que é obtida no endereço https://api.nasa.gov/index.html#apply-for-an-api-key 
+No diretório servidor criar um arquivo com nome .env contendo:
+
+```
+PORTA=3000
+NASA_API_KEY='.......'
+```
+
+O valor do atributo NASA_API_KEY é obtido no endereço https://api.nasa.gov/index.html#apply-for-an-api-key 
 
 Isso permitirá que sua aplicação acesse o webservice da Nasa.
 
